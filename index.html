@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Percent of Ancestry Calculator</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
 
+  <body>
+    <h1>Percent of Ancestry Calculator</h1>
+    <p>
+      How much of your ancestry does a particular ancestor account for? Enter
+      your ancestors relationship with you, such as great grandparent or great x
+      13 grandparent etc, and the amount of your ancestry from this ancestor
+      will be calculated
+    </p>
+    <p>
+      Note that this does NOT calculate how much of your DNA is from this
+      person. Only a DNA test could tell you that. This simply measures how much
+      of your ancestry, not DNA, comes from this person.
+    </p>
+
+    <div>
+      <p>Great x</p>
+      <input type="textarea" id="greatX" />
+      <input type="button" id="button" value="calculate" />
+    </div>
+
+    <p id="answer"></p>
+    <p id="amount"></p>
+    <script src="script.js" />
+  </body>
+</html>

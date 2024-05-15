@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#greatX {
+    max-height: 20px;
+    margin-left: 3px;
+    width: 75px;
+}
+
+#button {
+    max-height: 25px;
+}
+
+#greatX, #button {
+    margin-top: 10px;
+}
+
+p, h1 {
+    text-align: center;
+}
